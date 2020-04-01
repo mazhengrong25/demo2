@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>2D变形</title>
+		<style type="text/css">
+			div{width: 100px;height: 100px; border: 1px #f00 solid;margin:100px auto;transition: all 2s;}
+			div:nth-child(1):hover{transform: translateX(200px);}/* 沿X轴平移 */
+			div:nth-child(2):hover{transform: rotate(90deg);}/* 旋转90度 */
+			div:nth-child(3):hover{transform: scale(.5);}/* 放大缩小数值1为界限 */
+			div:nth-child(4):hover{transform: skew(30deg,30deg);}/* 扭曲显示 */	
+		</style>
+	</head>
+	<body>
+		<div>2D平移</div>
+		<div>2D旋转</div>
+		<div>2D缩放</div>
+		<div>2D扭曲</div>
+	</body>
+</html>
